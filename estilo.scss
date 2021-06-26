@@ -1,0 +1,304 @@
+$app-color: #b6d7a8;
+
+.centenario {
+    margin-left: 2rem;
+    margin-top: 2rem; 
+    color: rgb(247, 246, 250);
+    font-size: 0.85rem;
+  }
+  
+  .body {
+    background-color: $app-color;
+  }
+  
+  .imagen {
+    height: 80%;
+    width: 70%;
+  }
+
+  .imagen1 {
+  height: 70%;
+  width: 100%;
+  margin-top: 2rem; 
+  
+  }
+  
+  .header{
+    width: auto;
+  
+  }
+
+  .container {
+    height: 40px;
+    margin: 2rem;
+    display: grid;
+    grid-template-columns: 0.35fr 1fr 0.35fr;
+    grid-template-rows: 1fr 0fr 0fr;
+    margin-bottom: 7rem;
+  }
+  
+  .main {
+    text-align: center;
+    color: white;
+  }
+  
+  
+  .tabla {
+    color: white;
+    border-style:solid;
+    border-color: white;
+    text-align: center;
+  }
+  
+  
+  
+  
+  .grid {
+    margin-top: 2rem;
+    color: white;
+    text-align: center;
+  
+  
+  }
+  
+  .shop {
+  
+    color: white;
+    align-items: center;
+  
+  }
+  
+  .titulo {
+    margin-top: 40px;
+    margin-left: 20px;
+    font-size: 20px;
+    margin-bottom: 40px;
+  
+  }
+.calendario{
+  font-size:30px;
+  color: white;
+  text-align: center;
+  border-style: solid;
+
+}
+
+  .titulo--titulo {
+    font-weight: bold;
+    color: white;
+    word-spacing: 1px;
+    font-size: 25px;
+    line-height: 15px;
+  
+  }
+
+  .titulo--subtitulo {
+  
+    color: white;
+    word-spacing: 1px;
+    font-size: 18px;
+    line-height: 15px;
+  
+  }
+
+  .clinicavet{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 45%;
+  }
+
+
+  .nosotrostexto {
+  
+    margin-left: 20px;
+  
+  }
+  
+  .nosotrosImagenes {
+  
+    margin-left: 80px;
+  
+  }
+  
+  .imagenContactanos {
+  
+    margin-left: 80px;
+  
+  }
+  
+  .footer {
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 15px;
+  }
+  
+  a,
+  a:hover,
+  a:focus,
+  a:active {
+    color: white;
+  }
+  
+  .video {
+    display: block;
+    height: auto;
+    text-align: center;
+    max-width: 100%;
+  }
+  
+  .flexbox {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    animation-duration: 5s;
+    animation-name: aparecer;
+  }
+
+  .input{
+    border-style:solid;
+    border-color: white;
+    color: white;
+    width: 100%;
+  }
+  
+  .input--uppercase{
+    width: 100px;
+    height: 25px;
+    transition:all 2s;
+    text-transform: uppercase;
+  
+  }
+  
+  input:focus{
+    width: 200px;
+    font-size: 24px;
+  }
+
+  .textoshop{
+    text-align: CENTER;
+    animation-duration: 5s;
+    animation-name: aparecer;
+    width: 95%;
+    font-size: 20PX
+  }
+  
+  .pedidos{
+    text-align: CENTER;
+    animation-duration: 5s;
+    animation-name: aparecer;
+    width: 95%;
+    font-size: 20PX;
+  }
+  @keyframes aparecer {
+    0% {
+      opacity: 0;
+    }
+    100%{
+      opacity:1;
+    }
+  }
+  
+  
+  .boton{
+    font-size: 1.5rem;
+    color: white;
+    background-color: $app-color;
+    border-color: white;
+    border-style:solid;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    
+  }
+  /*CALENDARIO*/
+  
+  
+    
+  ul {
+    list-style-type: none;
+  }
+  
+  body {
+    font-family: Verdana, sans-serif;
+
+  }
+  
+  /* Month header */
+  .month {
+    padding: 70px 25px;
+    width: 66.5%;
+    background: #1abc9c;
+    text-align: center;
+    margin-top: 4REM;
+  }
+  
+  /* Month list */
+  .month ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .month ul li {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+  }
+  
+  /* Previous button inside month header */
+  .month .prev {
+    float: left;
+    padding-top: 10px;
+  }
+  
+  /* Next button */
+  .month .next {
+    float: right;
+    padding-top: 10px;
+  }
+  
+  /* Weekdays (Mon-Sun) */
+  .weekdays {
+    margin: 0;
+    padding: 10px 0;
+    background-color: #ddd;
+    width: 70%;
+  
+  }
+  
+  .weekdays li {
+    display: inline-block;
+    width: 13.6%;
+    color: #666;
+    text-align: center;
+  }
+  
+  /* Days (1-31) */
+  .days {
+    padding: 10px 0;
+    background: #eee;
+    margin: 0;
+    width: 70%;
+  
+  }
+  
+  .days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 12px;
+    color: #777;
+  }
+  
+  /* Highlight the "current" day */
+  .days li .active {
+    padding: 5px;
+    background: #1abc9c;
+    color: white !important
+  }
+
+  
